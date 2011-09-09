@@ -17,7 +17,7 @@
             <MenuItem Header="Edit" Name="editMenu" Click="editMenu_Click" />
             <MenuItem Header="Preferences" Name="preferencesMenu" Click="preferencesMenu_Click" />
         </Menu>
-        <TextBox Height="23" HorizontalAlignment="Left" Margin="12,326,0,0" Name="sendBox" VerticalAlignment="Top" Width="473" AcceptsReturn="True" TextChanged="sendBox_TextChanged" IsEnabled="True" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="12,326,0,0" Name="sendBox" VerticalAlignment="Top" Width="473" AcceptsReturn="False" TextChanged="sendBox_TextChanged" IsEnabled="True" />
         <Button Content="Send" Height="23" HorizontalAlignment="Left" Margin="491,326,0,0" Name="sendButton" VerticalAlignment="Top" Width="75" IsDefault="True" Click="sendButton_Click" />
     </Grid>
 </Window>
