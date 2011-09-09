@@ -1,4 +1,6 @@
-﻿using System;
+﻿// This is fully testing VS2010's git capabilities. (Okay not really)
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
