@@ -1,20 +1,23 @@
-﻿<Window x:Class="TestingWPF.MainWindow"
+﻿<Window x:Class="retina.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="400" Width="600">
+        Title="MainWindow" Height="400" Width="600" Name="retinaMainWindow">
     <Grid>
-        <TabControl Height="295" HorizontalAlignment="Left" Margin="0,25,0,0" Name="channelTabs" VerticalAlignment="Top" Width="578">
+        <TabControl Height="295" HorizontalAlignment="Left" Margin="0,25,0,0" Name="channelTabs" VerticalAlignment="Top" Width="578" SelectionChanged="channelTabs_SelectionChanged">
             <TabItem Header="Console" Name="console">
                 <Grid>
-                    <TextBox Height="264" HorizontalAlignment="Left" Name="textBox2" VerticalAlignment="Top" Width="472" />
-                    <ListBox Height="263" HorizontalAlignment="Left" Margin="478,0,0,0" Name="listBox1" VerticalAlignment="Top" Width="90" />
+                    <ListBox Height="263" HorizontalAlignment="Left" Margin="478,0,0,0" Name="memberList" VerticalAlignment="Top" Width="90" SelectionChanged="memberList_SelectionChanged" ItemsSource="{Binding}" />
+                    <TextBlock Height="263" HorizontalAlignment="Left" Name="messageBox" Text="Initializing..." VerticalAlignment="Top" Width="472" />
                 </Grid>
             </TabItem>
+            <TabItem Header="Test" Name="test"/>
         </TabControl>
         <Menu Height="23" HorizontalAlignment="Left" Name="menu1" VerticalAlignment="Top" Width="578">
-            <MenuItem Header="Test" />
+            <MenuItem Header="File" Name="fileMenu" />
+            <MenuItem Header="Edit" Name="editMenu" Click="editMenu_Click" />
+            <MenuItem Header="Preferences" Name="preferencesMenu" Click="preferencesMenu_Click" />
         </Menu>
-        <TextBox Height="23" HorizontalAlignment="Left" Margin="0,326,0,0" Name="textBox1" VerticalAlignment="Top" Width="485" />
-        <Button Content="Send" Height="23" HorizontalAlignment="Left" Margin="491,326,0,0" Name="sendButton" VerticalAlignment="Top" Width="75" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="12,326,0,0" Name="sendBox" VerticalAlignment="Top" Width="473" AcceptsReturn="True" TextChanged="sendBox_TextChanged" IsEnabled="True" />
+        <Button Content="Send" Height="23" HorizontalAlignment="Left" Margin="491,326,0,0" Name="sendButton" VerticalAlignment="Top" Width="75" IsDefault="True" Click="sendButton_Click" />
     </Grid>
 </Window>

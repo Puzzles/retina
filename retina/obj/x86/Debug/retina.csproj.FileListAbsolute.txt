@@ -1,0 +1,13 @@
+c:\users\hoverbear\documents\visual studio 2010\Projects\retina\retina\bin\Debug\retina.exe
+c:\users\hoverbear\documents\visual studio 2010\Projects\retina\retina\bin\Debug\retina.pdb
+c:\users\hoverbear\documents\visual studio 2010\Projects\retina\retina\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\hoverbear\documents\visual studio 2010\Projects\retina\retina\obj\x86\Debug\MainWindow.baml
+c:\users\hoverbear\documents\visual studio 2010\Projects\retina\retina\obj\x86\Debug\MainWindow.g.cs
+c:\users\hoverbear\documents\visual studio 2010\Projects\retina\retina\obj\x86\Debug\App.g.cs
+c:\users\hoverbear\documents\visual studio 2010\Projects\retina\retina\obj\x86\Debug\retina_MarkupCompile.cache
+c:\users\hoverbear\documents\visual studio 2010\Projects\retina\retina\obj\x86\Debug\retina.g.resources
+c:\users\hoverbear\documents\visual studio 2010\Projects\retina\retina\obj\x86\Debug\retina.Properties.Resources.resources
+c:\users\hoverbear\documents\visual studio 2010\Projects\retina\retina\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\hoverbear\documents\visual studio 2010\Projects\retina\retina\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\hoverbear\documents\visual studio 2010\Projects\retina\retina\obj\x86\Debug\retina.exe
+c:\users\hoverbear\documents\visual studio 2010\Projects\retina\retina\obj\x86\Debug\retina.pdb
