@@ -7,7 +7,7 @@
             <TabItem Header="Console" Name="console">
                 <Grid>
                     <ListBox Height="263" HorizontalAlignment="Left" Margin="478,0,0,0" Name="memberList" VerticalAlignment="Top" Width="90" SelectionChanged="memberList_SelectionChanged" ItemsSource="{Binding}" />
-                    <TextBlock Height="263" HorizontalAlignment="Left" Name="messageBox" Text="Initializing..." VerticalAlignment="Top" Width="472" />
+                    <ListBox Height="263" HorizontalAlignment="Left" Name="messageList" VerticalAlignment="Top" Width="480" />
                 </Grid>
             </TabItem>
             <TabItem Header="Test" Name="test"/>

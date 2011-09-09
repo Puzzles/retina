@@ -29,7 +29,7 @@ namespace retina
 
         private void sendButton_Click(object sender, RoutedEventArgs e)
         {
-            this.messageBox.Text = this.messageBox.Text + "\n" + sendBox.Text;
+            this.messageList.Items.Add(sendBox.Text);
             sendBox.Clear();
             
         }
