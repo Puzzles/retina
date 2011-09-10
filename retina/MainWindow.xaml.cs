@@ -42,6 +42,5 @@ namespace Retina
             Core.handleMessage(this,sendBox.Text);
             sendBox.Clear();
         }
-       
     }
 }
