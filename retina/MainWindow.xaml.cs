@@ -24,15 +24,24 @@ namespace Retina
         public MainWindow()
         {
             InitializeComponent();
-            
+            Core core = new Core();
+            messageList.Items.Add("Core Initializing...");
+            try
+            {
+                core.init();
+                messageList.Items.Add("Initialized Successfully.");
+            }
+            catch
+            {
+                messageList.Items.Add("There was an error, not implemented yet?");
+            }
         }
 
         private void sendButton_Click(object sender, RoutedEventArgs e)
         {
-            messageList.Items.Add(sendBox.Text);
+            Core.handleMessage(this,sendBox.Text);
             sendBox.Clear();
         }
-
        
     }
 }
