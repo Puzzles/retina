@@ -14,7 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace retina
+namespace Retina
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -29,34 +29,10 @@ namespace retina
 
         private void sendButton_Click(object sender, RoutedEventArgs e)
         {
-            this.messageList.Items.Add(sendBox.Text);
+            messageList.Items.Add(sendBox.Text);
             sendBox.Clear();
-            
         }
 
-        private void sendBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            // Do spellcheck logic?
-        }
-
-        private void memberList_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            // Do hover-over logic? (Ident information?)
-        }
-
-        private void channelTabs_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            // Do change-tab logic.
-        }
-
-        private void editMenu_Click(object sender, RoutedEventArgs e)
-        {
-            // Do edit menu logic.
-        }
-
-        private void preferencesMenu_Click(object sender, RoutedEventArgs e)
-        {
-            // Do preferences menu logic.
-        }
+       
     }
 }
